@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Capoeira",
+    "description": "Capoeira is an Afro-Brazilian cultural art form consisting of combat/movement, music, energy, and innovation. It was developed by slaves in Brazil in order to free them from slavery from the Portuguese."
+  }, 
+  {
+    "name": "Computer Oganization"
+    "description": "Computer Organization encompasses low-level functions of computers, often at the machine-level. By understanding and building upon these functions, those employed in software can construct the web services that we enjoy today."
+  },
+  {
+    "name": "Movement Culture", 
+    "description": "Developed by Ido Portal, Movement Culture evolved from capoeira and seeks to find the full expression of human locomotion. It could probably best described as an intersection between calisthenics, movement, neuro-muscular communication, and primal instincts."
+  }
+]

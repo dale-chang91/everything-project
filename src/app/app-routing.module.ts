@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { WelcomeComponent } from './core/welcome/welcome.component';
+
 const routes: Routes = [
+  {
+    path: '',
+    component: WelcomeComponent
+  },
   {
     path: 'capoeira',
     loadChildren: 'capoeira/capoeira.module#CapoeiraModule'

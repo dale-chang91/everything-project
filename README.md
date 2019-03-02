@@ -25,6 +25,12 @@ This project also uses, or aims to use, the following technologies:
 * Security
   * TBD
 
+## Contributing
+
+If you are intending to contribute, please pull the project and create a git branch with your name via `git checkout ${your name} master` and then create a feature branch from 'your branch' via `git checkout ${feature} ${your name}`
+
+Next, you should fill out the Contributor section with some basic information. There are a variety of ways to do this, either adding a message to this Git repository, sending an email, using the form after running this website, directly adding data to the data layer, or anywhere in between.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Development server

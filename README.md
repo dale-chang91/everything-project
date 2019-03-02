@@ -1,4 +1,29 @@
-# EverythingProject
+# Everything iProject
+
+This project is designed to combine two of my passions in life: broader Software Engineering and my myriad interests. By blending the two, I can improve on all of these aspects at the same time. By creating a central blog/web-experience, I can have a central portfolio with which to share the world.
+
+## Features
+
+This project is a collection of similar modules and components regarding:
+* Capoeira
+* Movement
+* Computer Science Education
+  * Computer Organization
+  * More to be added
+
+This project also uses, or aims to use, the following technologies:
+* Front-end
+  * Angular
+* Middleware
+  * Python
+  * REST APIs/GraphQL
+* Data
+  * MongoDB
+* DevOps
+  * Containerization via containerd
+  * Container Orchestration via Kubernetes
+* Security
+  * TBD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 

@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+
+import { ModuleIntro } from 'module-intros/module-intros.component';
+import { MockDataService } from '../../mock-services/mock-data.service';
 
 @Component({
   selector: 'app-welcome',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
-  constructor() { }
+  @Output() moduleIntros: ModuleIntro[];
+
+  constructor(private mockDataService: MockDataService) { }
 
   ngOnInit() {
+    this.moduleIntros = this.mockDataService.getModuleIntroData();
   }
 
 }

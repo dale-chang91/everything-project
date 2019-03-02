@@ -10,15 +10,15 @@ const routes: Routes = [
   },
   {
     path: 'capoeira',
-    loadChildren: 'capoeira/capoeira.module#CapoeiraModule'
+    loadChildren: './capoeira/capoeira.module#CapoeiraModule'
   },
   {
     path: 'computer-organizataion',
-    loadChildren: 'computer-organization/computer-organization.module#ComputerOrganizationModule'
+    loadChildren: './computer-organization/computer-organization.module#ComputerOrganizationModule'
   },
   {
     path: 'movement',
-    loadChildren: 'movement/movement.module#MovementModule'
+    loadChildren: './movement/movement.module#MovementModule'
   }
 ];
 

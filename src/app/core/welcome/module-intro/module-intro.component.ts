@@ -12,8 +12,8 @@ export interface ModuleIntro {
 })
 export class ModuleIntroComponent implements OnInit {
 
-  @Input name: string;
-  @Input description: string;
+  @Input() name: string;
+  @Input() description: string;
 
   constructor() { }
 

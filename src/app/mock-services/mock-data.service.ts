@@ -10,6 +10,7 @@ export class MockDataService {
   constructor() { }
 
   getModuleIntroData() {
-    console.log("Data? "+moduleIntros);
+    // console.log("Data? "+JSON.stringify(moduleIntros));
+    return moduleIntros;
   }
 }

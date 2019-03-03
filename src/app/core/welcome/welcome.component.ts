@@ -1,6 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 
-import { ModuleIntro } from 'module-intros/module-intros.component';
+import { ModuleIntro } from './module-intro/module-intro.component';
 import { MockDataService } from '../../mock-services/mock-data.service';
 
 @Component({

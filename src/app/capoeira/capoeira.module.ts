@@ -5,7 +5,12 @@ import { CapoeiraRoutingModule } from './capoeira-routing.module';
 import { CapoeiraComponent } from './capoeira.component';
 
 @NgModule({
-  declarations: [CapoeiraComponent],
+  declarations: [
+    CapoeiraComponent
+  ],
+  exports: [
+    CapoeiraComponent
+  ],
   imports: [
     CommonModule,
     CapoeiraRoutingModule

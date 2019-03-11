@@ -1,6 +1,6 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { ModuleIntro } from './module-intro/module-intro.component';
+import { ModuleIntro } from './module-intro/module-intro';
 import { MockDataService } from '../../mock-services/mock-data.service';
 
 @Component({
@@ -8,14 +8,13 @@ import { MockDataService } from '../../mock-services/mock-data.service';
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.scss']
 })
-export class WelcomeComponent implements OnInit {
+export class WelcomeComponent {
 
-  @Output() moduleIntros: ModuleIntro[];
+  moduleIntros: any[];
 
-  constructor(private mockDataService: MockDataService) { }
-
-  ngOnInit() {
+  constructor(private mockDataService: MockDataService) {
     this.moduleIntros = this.mockDataService.getModuleIntroData();
+    console.log('moduleIntros: ' + JSON.stringify(this.moduleIntros));
   }
 
 }

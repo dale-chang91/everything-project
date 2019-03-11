@@ -1,10 +1,24 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { CapoeiraComponent } from './capoeira.component';
+
+const routes: Routes = [
+  {
+    path: 'capoeira',
+    component: CapoeiraComponent
+  }
+];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  declarations: [
+    CapoeiraComponent
+  ],
+  imports: [
+    RouterModule.forChild(routes)
+  ],
+  exports: [
+    RouterModule
+  ]
 })
 export class CapoeiraRoutingModule { }

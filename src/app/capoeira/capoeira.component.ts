@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CapoeiraComponent implements OnInit {
 
+  message = 'Jogo que eu quero aprender';
+
   constructor() { }
 
   ngOnInit() {

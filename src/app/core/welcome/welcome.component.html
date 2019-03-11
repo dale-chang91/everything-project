@@ -2,6 +2,12 @@
 <div class="container">
   <h1>Welcome</h1>
   <div class="row card-group">
-    <app-module-intro class="col-4" *ngFor="let moduleIntro of moduleIntros"></app-module-intro>
+    <app-module-intro 
+        class="col-4" 
+        *ngFor="let moduleIntro of moduleIntros"
+        [name]="moduleIntro.name"
+        [description]="moduleIntro.description"
+        [route]="moduleIntro.route"
+    ></app-module-intro>
   </div>
 </div>

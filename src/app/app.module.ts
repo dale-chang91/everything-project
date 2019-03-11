@@ -7,10 +7,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
  */
 import { MatCardModule } from '@angular/material';
 
+/**
+ * Central App
+ */
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { CoreModule } from './core/core.module';
+
+/**
+ * Feature Module
+ */
+import { CapoeiraModule } from './capoeira/capoeira.module';
 
 @NgModule({
   declarations: [

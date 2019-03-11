@@ -1,9 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-export interface ModuleIntro {
-  name: string;
-  description: string;
-}
+import { ModuleIntro } from './module-intro';
 
 @Component({
   selector: 'app-module-intro',
@@ -12,7 +9,9 @@ export interface ModuleIntro {
 })
 export class ModuleIntroComponent implements OnInit {
 
-  @Input() moduleIntro: ModuleIntro;
+  @Input() name: string;
+  @Input() description: string;
+  @Input() route: string;
 
   constructor() { }
 

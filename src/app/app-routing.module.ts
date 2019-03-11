@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { CapoeiraComponent } from './capoeira/capoeira.module';
+import { ComputerOrganizationModule } from './computer-organization/computer-organization.module';
+import { MovementModule } from './movement/movement.module';
+import { TravelModule } from './travel/travel.module';
 import { WelcomeComponent } from './core/welcome/welcome.component';
 
 const routes: Routes = [
@@ -19,6 +23,10 @@ const routes: Routes = [
   {
     path: 'movement',
     loadChildren: './movement/movement.module#MovementModule'
+  },
+  {
+    path: 'travel',
+    loadChildren: './travel/travel.module#TravelModule'
   }
 ];
 

@@ -14,7 +14,6 @@ export class WelcomeComponent {
 
   constructor(private mockDataService: MockDataService) {
     this.moduleIntros = this.mockDataService.getModuleIntroData();
-    console.log('moduleIntros: ' + JSON.stringify(this.moduleIntros));
   }
 
 }
